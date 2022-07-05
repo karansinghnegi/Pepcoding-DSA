@@ -16,7 +16,6 @@ public class Prime {
 
 		for(int i = 1; i <=num; i++) {
 			if(count > 2) {
-			  System.out.println("Not Prime");
 				break;
 			}
 			if(num % i == 0) {
@@ -24,8 +23,10 @@ public class Prime {
 			}
 
 		}
-		if(count <= 2) {
+		if(count <= 2 && num != 1) {
 			System.out.println("Prime");
+		}else {
+			System.out.println("Not Prime");
 		}
 	
 	}

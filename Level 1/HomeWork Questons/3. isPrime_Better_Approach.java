@@ -17,14 +17,15 @@ public class Main {
 
 		for(int i = 2; i<= num/2; i++ ) {
 			if(num % i == 0) {
-				System.out.println("Not Prime");
 				isPrime = false;
 				break;
 			}
 		}
 
-		if(isPrime) {
+		if(isPrime && num != 1) {
 		  System.out.println("Prime");	
+		} else {
+		  System.out.println("Not Prime");
 		}
 	}
 }

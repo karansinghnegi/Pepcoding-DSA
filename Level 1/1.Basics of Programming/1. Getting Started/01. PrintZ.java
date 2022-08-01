@@ -9,6 +9,5 @@ public class PrintZ {
         System.out.print("  *\n");
         System.out.print(" *\n");
         System.out.print("*****");
-
     }
 }

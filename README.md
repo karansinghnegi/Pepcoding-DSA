@@ -1,7 +1,7 @@
 # Pepcoding-DSA
 Pepcoding DSA All levels in Java Programming Language
 
-Inlcudes:
+Includes:
 
 Pepcoding DSA Questions
 
